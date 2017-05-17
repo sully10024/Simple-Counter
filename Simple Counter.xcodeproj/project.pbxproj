@@ -12,8 +12,6 @@
 		6FA0B7A51ECCA66A008F9B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA0B7A31ECCA66A008F9B3D /* Main.storyboard */; };
 		6FA0B7A71ECCA66A008F9B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA0B7A61ECCA66A008F9B3D /* Assets.xcassets */; };
 		6FA0B7AA1ECCA66A008F9B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA0B7A81ECCA66A008F9B3D /* LaunchScreen.storyboard */; };
-		6FA0B7B51ECCA66A008F9B3D /* Simple_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0B7B41ECCA66A008F9B3D /* Simple_CounterTests.swift */; };
-		6FA0B7C01ECCA66A008F9B3D /* Simple_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0B7BF1ECCA66A008F9B3D /* Simple_CounterUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		6FA0B7A91ECCA66A008F9B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FA0B7AB1ECCA66A008F9B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FA0B7B01ECCA66A008F9B3D /* Simple CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FA0B7B41ECCA66A008F9B3D /* Simple_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_CounterTests.swift; sourceTree = "<group>"; };
-		6FA0B7B61ECCA66A008F9B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FA0B7BB1ECCA66A008F9B3D /* Simple CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FA0B7BF1ECCA66A008F9B3D /* Simple_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_CounterUITests.swift; sourceTree = "<group>"; };
-		6FA0B7C11ECCA66A008F9B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				6FA0B79E1ECCA669008F9B3D /* Simple Counter */,
-				6FA0B7B31ECCA66A008F9B3D /* Simple CounterTests */,
-				6FA0B7BE1ECCA66A008F9B3D /* Simple CounterUITests */,
 				6FA0B79D1ECCA669008F9B3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				6FA0B7AB1ECCA66A008F9B3D /* Info.plist */,
 			);
 			path = "Simple Counter";
-			sourceTree = "<group>";
-		};
-		6FA0B7B31ECCA66A008F9B3D /* Simple CounterTests */ = {
-			isa = PBXGroup;
-			children = (
-				6FA0B7B41ECCA66A008F9B3D /* Simple_CounterTests.swift */,
-				6FA0B7B61ECCA66A008F9B3D /* Info.plist */,
-			);
-			path = "Simple CounterTests";
-			sourceTree = "<group>";
-		};
-		6FA0B7BE1ECCA66A008F9B3D /* Simple CounterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6FA0B7BF1ECCA66A008F9B3D /* Simple_CounterUITests.swift */,
-				6FA0B7C11ECCA66A008F9B3D /* Info.plist */,
-			);
-			path = "Simple CounterUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FA0B7B51ECCA66A008F9B3D /* Simple_CounterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FA0B7C01ECCA66A008F9B3D /* Simple_CounterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
